@@ -8,7 +8,7 @@ import javax.persistence.*;
 
 
 @Entity
-@Table
+@Table(name="product")
 
 
 @Getter
@@ -21,7 +21,14 @@ public class ProductDTO {
     private int product_no;
     @Column(nullable = false, length = 50)
     private String product_name;
+    @Column(name="product_price", nullable = false)
     private int product_price;
-    private String product_catagory, product_origin,
-    product_details, product_status;
+    @Column(nullable = true)
+    private String product_catagory;
+    @Column(nullable = true)
+    private String product_origin;
+    @Column(nullable = true)
+    private String product_details;
+    @Column(nullable = true)
+    private String product_status;
 }

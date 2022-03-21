@@ -25,7 +25,7 @@ public class MemberController {
     }
     @RequestMapping(value = "/join", method = RequestMethod.POST)
     public String join(HttpServletRequest req){
-        String member_id
+        String member_id;
         return "/member/join_result";
     }
     @RequestMapping(value = "/login", method= RequestMethod.GET)
