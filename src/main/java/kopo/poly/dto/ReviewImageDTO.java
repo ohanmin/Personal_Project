@@ -7,6 +7,7 @@ import java.io.File;
 
 @Getter
 @Setter
+
 public class ReviewImageDTO {
     private int review_no;
     private File review_image;
