@@ -9,6 +9,6 @@ import lombok.Setter;
 @NoArgsConstructor
 public class MemberDTO {
     private int member_no;
-    private String member_id, member_password, member_phone, member_email;
-    private String member_birth, member_create, member_modify, member_auth;
+    private String member_password, member_email;
+    private String member_create, member_modify, member_auth;
 }
