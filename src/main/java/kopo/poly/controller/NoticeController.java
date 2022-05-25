@@ -43,7 +43,6 @@ public class NoticeController {
     @GetMapping(value = "index")
     public String Index() {
         return "/index";
-
     }
 
     /**
