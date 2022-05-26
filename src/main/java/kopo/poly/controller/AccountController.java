@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class AccountController {
     @GetMapping(value="/summary")
     public String summary(){
+
         return "/account/summary";
     }
 

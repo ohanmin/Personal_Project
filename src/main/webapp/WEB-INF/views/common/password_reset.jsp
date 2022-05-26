@@ -519,16 +519,11 @@
         <div class="row">
 
             <div class="col-md-6 pt-4 mt-3 mt-md-0">
-                <h2 class="h4 mb-3">회원 가입</h2>
+                <h2 class="h4 mb-3">비밀번호 재설정</h2>
                 <p class="fs-sm text-muted mb-4"></p>
                 <form class="needs-validation" novalidate>
                     <div class="row gx-4 gy-3">
 
-                        <div class="col-sm-6">
-                            <label class="form-label" for="reg-email">E-mail Address</label>
-                            <input class="form-control" type="email" required id="reg-email">
-                            <div class="invalid-feedback">Please enter valid email address!</div>
-                        </div>
 
                         <div class="col-sm-6">
                             <label class="form-label" for="reg-password">Password</label>
@@ -541,7 +536,7 @@
                             <div class="invalid-feedback">Passwords do not match!</div>
                         </div>
                         <div class="col-12 text-end">
-                            <button class="btn btn-primary" type="submit"><i class="ci-user me-2 ms-n1"></i>회원가입</button>
+                            <button class="btn btn-primary" type="submit">비밀번호 재설정</button>
                         </div>
                     </div>
                 </form>

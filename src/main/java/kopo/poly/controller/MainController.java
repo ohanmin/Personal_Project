@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 public class MainController {
     @GetMapping(value = "/catagory")
     public String catagory(){
-        return "";
+        return "/main/category";
     }
     @GetMapping(value = "/search")
     public String search(){
