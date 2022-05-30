@@ -1,6 +1,7 @@
 package kopo.poly.service.impl;
 
 import kopo.poly.dto.MemberDTO;
+import kopo.poly.service.IMemberService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -11,7 +12,7 @@ import org.springframework.stereotype.Service;
 
 @Slf4j
 @Service("MemberService")
-public class MemberService{
+public class MemberService implements IMemberService {
 
 
 }

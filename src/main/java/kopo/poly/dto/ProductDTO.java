@@ -11,7 +11,7 @@ import javax.persistence.*;
 @Setter
 @ToString
 public class ProductDTO {
-
+    private int product_no;
 
     private String product_name;
 
@@ -24,4 +24,6 @@ public class ProductDTO {
     private String product_details;
 
     private String product_status;
+
+    private int product_purchase;
 }
